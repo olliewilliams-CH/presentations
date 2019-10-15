@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "nta";
+  src: url("light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "nta";
+  src: url("bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}

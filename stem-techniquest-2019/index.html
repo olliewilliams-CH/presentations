@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/govuk.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>
+						Did you know government services are going digital by default?
+					</h1>
+				</section>
+				<section data-autoslide="6000">
+					<h2>We're making our services more efficient and convenient for our users.</h2>
+				</section>
+				<section data-autoslide="7000">
+					<h2>We need talented people to work in digital teams across the country.</h2>
+				</section>
+				<section data-autoslide="7000">
+					<h2>A STEM degree or apprenticeship can lead to an exciting career in digital technology.</h2>
+				</section>
+				<section data-autoslide="12000">
+					<h2>Available roles include</h2>
+					<div class="grid-container">
+						<div class="column">
+							<ul class="list">
+								<li class="fragment fade-in" data-autoslide="1500">Software developers</li>
+								<li class="fragment fade-in" data-autoslide="1500">Product owners</li>
+								<li class="fragment fade-in" data-autoslide="1500">Data scientists</li>
+								<li class="fragment fade-in" data-autoslide="1500">Service designers</li>
+								<li class="fragment fade-in" data-autoslide="1500">Security engineers</li>
+							</ul>
+						</div>
+						<div class="column">
+							<ul class="list">
+								<li class="fragment fade-in" data-autoslide="1500">User researchers</li>
+								<li class="fragment fade-in" data-autoslide="1500">Technical architects</li>
+								<li class="fragment fade-in" data-autoslide="1500">Database engineers</li>
+								<li class="fragment fade-in" data-autoslide="1500">Network administrators</li>
+								<li class="fragment fade-in" data-autoslide="5000">and more...</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-autoslide="10000" data-state="hide-controls">
+					<img class="ch-logo" src="/lib/images/ch-logo.svg" alt="Companies House">
+					<h2>Companies House has more than 200 people working in digital roles, right here in Cardiff...</h2>
+				</section>
+				<section>
+					<h1>...and we're looking for more!</h1>
+				</section>
+				<section>
+					<h1>Want to see what it's like?</h1>
+				</section>
+				<section data-autoslide="65000" data-background-video="/lib/video/ds-movie.mp4"></section>
+				<section class="center" data-autoslide="15000">
+					<h2>Become an apprentice at Companies House</h2>
+					<p>Applications close <strong>21 Oct 2019</strong></p>
+					<img class="qr-code" src="/lib/images/qr.svg" alt="https://bit.ly/30Xyvuy">
+					<p>civilservicejobs.service.gov.uk</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				autoSlide: 5000,
+				loop: true,
+				transition: 'slide',
+				backgroundTransition: 'slide',
+				controls: false,
+				progress: false,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
